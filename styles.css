@@ -11,7 +11,7 @@ body{
 }
 
 .hero{
-    padding: 0 240px;
+    padding: 0 340px;
 }
 
 .header{
@@ -28,8 +28,6 @@ body{
     font-weight: thin 100;
 }
 
-
-
 a{
     text-decoration: none;
 }
@@ -40,7 +38,7 @@ ul{
     gap: 16px;
 }
 
-.content{
+.hero .content{
     padding: 116px 0;
     display: flex;
     gap: 48px;
@@ -83,4 +81,63 @@ img{
 
 .text{
     font-weight: 300;
+}
+
+.project-section{
+    background: #eaf5f9;
+    padding: 2rem;
+    border-radius: 8px;
+    padding: 116px 360px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-header a {
+  text-decoration: none;
+  color: #0095ff;
+  font-size: 0.9rem;
+}
+
+.project-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  flex: 1;
+}
+
+
+.post-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1d1d1d;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0 1rem;
+}
+
+.excerpt {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
 }
