@@ -88,10 +88,13 @@ ul{ /*list*/
 }
 
 img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    max-height: 300px;
+  height: auto;
+  object-fit: cover;
+  max-height: 300px;  
+  width: 280px;
+  height: 280px;
+  border-radius: 8%;   /* makes it circular */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .hero button{
@@ -104,6 +107,7 @@ img{
     border-radius: 8px;
     box-shadow: none;
     border: none;
+    cursor: pointer;
 }
 
 .text{
