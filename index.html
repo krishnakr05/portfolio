@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -14,19 +15,20 @@
     </style>
 </head>
 <body>
-    <div class="hero">
-        <div class="header">
+    <div class="header">
             <div class="left-text">
                 Krishna K R
             </div>
-            <div class="right-links">
+            <div class="navbar">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#hero">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </div>
+    </div>
+    <section id="hero" class="hero">
+        
         <div class="content">
             <div class="content-left">
                 <div class="title-text">
@@ -46,8 +48,8 @@
                 <img src="" alt="This is placeholder for an image">
             </div>
         </div>
-    </div>
-    <section class="project-section">
+    </section>
+    <section id="projects" class="project-section">
     <div class="section-header">
         <h2>Projects</h2>
         <a href="#">View all</a>
@@ -76,8 +78,22 @@
     </div>
     </section>
 
-    <div class="contact"></div>
+    <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
 
+    <div class="contact-details">
+        <p><strong>Email:</strong> <a href="mailto:krishnakr022021@gmail.com">krishnakr022021@gmail.com</a></p>
+        <p><strong>Location:</strong> Kochi, India</p>
+    </div>
+
+    <div class="contact-socials">
+        <a href="https://github.com/krishnakr" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/krishna" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    </section>
+    <div class="footer-bottom">
+        <p>© 2025 Krishna K R. All rights reserved.</p>
+    </div>
     
 </body>
 </html>
